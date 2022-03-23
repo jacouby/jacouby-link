@@ -5,7 +5,7 @@
     <link data-color-mode="dark" rel="stylesheet" href="./dark-sheet.css">
     <link data-color-mode="light" rel="stylesheet" href="./light-sheet.css">
     <link data-color-mode="l" rel="stylesheet" href="./text-sheet.css">
-    <script type="module" src="./link-handler.js"></script>
+    <script src="./link-handler.js"></script>
 </head>
 <body>
     <div class="text-container">
@@ -14,8 +14,10 @@
     </div>
     <div class="link-container">
         <div onclick="HandleLinkClick('vlta.net')" class="link">
-            <h1 class="link title">VLTA</h1>
-            <h3 class="link subtitle">My main website</h3>
+            <div class="link-text-container">
+                <h1 class="title">VLTA</h1>
+                <h3 class="subtitle">My main website</h3>
+            </div>
         </div>
     </div>
 </body> 

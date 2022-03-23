@@ -14,9 +14,29 @@
 
 .text-container {
     text-align: center;
+    padding-bottom: 5vh;
 }
 
 .link {
     width: 95%;
-    min-height: 20vh;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 3vh;
+    background-color: gray;
+    border-radius: 5%;
+    padding: 1vh;
 }
+.link-text-container {
+
+}
+
+.link.title {
+    font-size: 7vh;
+    margin: 0;
+}
+
+.link.subtitle {
+    font-size: 3vh;
+    margin: 0;
+}
+
