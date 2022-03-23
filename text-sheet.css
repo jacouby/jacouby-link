@@ -1,0 +1,22 @@
+.title {
+    font-size: 8vh;
+    font-family: halyard-display,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.subtitle {
+    font-size: 5vh;
+    font-family: halyard-display,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.link {
+    width: 95%;
+    min-height: 20vh;
+}
