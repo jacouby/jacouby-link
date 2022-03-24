@@ -1,3 +1,13 @@
+html {
+    background-color: #00f8fc;
+}
+
+a {
+    margin: 0;
+    text-decoration: none;
+    color: azure
+}
+
 .title {
     font-size: 8vh;
     font-family: halyard-display,sans-serif;
@@ -7,7 +17,7 @@
 
 .subtitle {
     font-size: 5vh;
-    font-family: halyard-display,sans-serif;
+    font-family: halyard-display, sans-serif;
     font-weight: 400;
     font-style: italic;
 }
@@ -18,24 +28,33 @@
 }
 
 .link {
-    width: 95%;
+    width: 90%;
     height: fit-content;
     margin: auto;
     margin-bottom: 3vh;
-    background-color: gray;
-    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 5vh;
     padding: 1vh;
+    transition: all 0.5s ease-in-out;
+    
 }
+
+.link:hover {
+    background-color: rgba(0, 0, 0, 0.678);
+    transition: all 0.5s ease-in-out;
+}
+
 .link-text-container {
-
+    padding: 2vh;
+    margin: 0;
 }
 
-.link.title {
+.link .title {
     font-size: 7vh;
     margin: 0;
 }
 
-.link.subtitle {
+.link .subtitle {
     font-size: 3vh;
     margin: 0;
 }
